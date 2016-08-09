@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pong</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+
+<body>
+  <code><pre id="pong"></pre></code>
+  <div class="anchor-panel">
+    <div id="settings-div" class="popup hidden">
+      NUM PLAYERS:
+      <select id="settings-players">
+        <option>0 (CPU vs CPU)</option>
+        <option>1 (human vs CPU)</option>
+        <option>2 (human vs human)</option>
+      </select>
+      <br> SHOW FPS
+      <input type="checkbox" id="settings-showfps">
+      <br>
+      <br> KEYBINDINGS:
+      <br/> LEFT UP:
+      <input id="settings-key-lup" class="keybinding" type="text" />
+      <br> LEFT DOWN:
+      <input id="settings-key-ldown" class="keybinding" type="text" />
+      <br> RIGHT UP:
+      <input id="settings-key-rup" class="keybinding" type="text" />
+      <br> RIGHT DOWN:
+      <input id="settings-key-rdown" class="keybinding" type="text" />
+      <br>
+      <br>
+      <a id="settings-save" href="#">SAVE</a>
+      <a id="settings-cancel" href="#">CANCEL</a>
+    </div>
+    <a id="settings" class="popup-button pull-right" data-target="settings-div" href="#">SETTINGS</a>
+  </div>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

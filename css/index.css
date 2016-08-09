@@ -1,0 +1,25 @@
+#pong {
+  font-size: 150%;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.anchor-panel {
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+}
+
+.popup {
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.pull-right {
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
